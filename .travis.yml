@@ -11,9 +11,9 @@ env:
 
 install:
 - npm install -g codecov
+- npm install -g istanbul
 #运行的脚本命令
 script:
-- npm run untest
 - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
 - codecov
 
