@@ -1,6 +1,7 @@
 # es6Template
 [![Build Status](https://travis-ci.org/yeshrb/es6-template.svg?branch=master)](https://travis-ci.org/yeshrb/es6-template)
 [![codecov](https://codecov.io/gh/yeshrb/es6-template/branch/master/graph/badge.svg)](https://codecov.io/gh/yeshrb/es6-template)
+[![Run Status](https://api.shippable.com/projects/573654952a8192902e200e8a/badge?branch=master)](https://app.shippable.com/projects/573654952a8192902e200e8a)
 #### 介绍
 A project template include babel,mocha,chai,mock.Avoiding to init a project every time
 
