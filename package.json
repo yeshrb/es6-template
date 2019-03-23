@@ -1,0 +1,27 @@
+{
+  "name": "es6Template",
+  "version": "1.0.0",
+  "repository": "git@gitee.com:yeshrb/es6Template.git",
+  "author": "lijunjie",
+  "license": "MIT",
+
+  "scripts": {
+    "ex": "babel-node  --presets=@babel/preset-env ",
+    "untest": "mocha  --exit",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "cross-env": "^5.2.0"
+  },
+
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4"
+  }
+}
