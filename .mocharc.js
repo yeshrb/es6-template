@@ -3,7 +3,6 @@
 // Here's a JavaScript-based config file.
 // If you need conditional logic, you might want to use this type of config.
 // Otherwise, JSON or YAML is recommended.
-
 module.exports = {
   diff: true,
   extension: ["js"],
@@ -16,8 +15,7 @@ module.exports = {
   recursive: [
     "./test/**/*.spec.js"
   ],
-  require: ["@babel/polyfill", "@babel/register"]
-
+  require: ["@babel/polyfill", "@babel/register"/*,"./test/mock/mock"*/]
 
 };
 
