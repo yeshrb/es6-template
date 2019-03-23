@@ -3,5 +3,5 @@
 import fs from 'path';
 const fn = ()=>{
   console.log(fs.resolve(__dirname,__filename));
-}
+};
 export default fn;
