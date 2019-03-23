@@ -15,7 +15,7 @@ module.exports = {
   recursive: [
     "./test/**/*.spec.js"
   ],
-  require: ["@babel/polyfill", "@babel/register"]
+  require: ["@babel/polyfill", "@babel/register","./test/mock"]
 
 };
 
