@@ -1,5 +1,5 @@
 # es6Template
-
+[![Build Status](https://travis-ci.org/yeshrb/es6-template.svg?branch=master)](https://travis-ci.org/yeshrb/es6-template)
 #### 介绍
 A project template include babel,mocha,chai,mock.Avoiding to init a project every time
 
