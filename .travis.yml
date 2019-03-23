@@ -16,7 +16,7 @@ install:
 #运行的脚本命令
 script:
 - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov
-- codecov
+
 
 #指定分支，只有指定的分支提交时才会运行脚本
 branches:
