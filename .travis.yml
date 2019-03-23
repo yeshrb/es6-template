@@ -15,6 +15,7 @@ install:
 - npm install -g istanbul
 #运行的脚本命令
 script:
+- yarn run lint
 - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov
 
 

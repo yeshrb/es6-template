@@ -1,31 +1,31 @@
 const presets = [
   [
-    "@babel/env",
+    '@babel/env',
     {
       targets: {
-        edge: "17",
-        firefox: "60",
-        chrome: "67",
-        safari: "11.1",
-        node: "current"
+        edge: '17',
+        firefox: '60',
+        chrome: '67',
+        safari: '11.1',
+        node: 'current',
       },
-      useBuiltIns: "usage",
-      corejs:"core-js@3"
+      useBuiltIns: 'usage',
+      corejs: 'core-js@3',
 
 
-    }
-  ]
+    },
+  ],
 ];
 const plugins = [
   [
-    "module-resolver",
+    'module-resolver',
     {
-      root: ["./"],
+      root: ['./'],
       alias: {
-        "S": "./src",
-        "T": "./test"
-      }
-    }
-  ]
+        S: './src',
+        T: './test',
+      },
+    },
+  ],
 ];
 module.exports = { presets, plugins };

@@ -19,6 +19,7 @@ module.exports = {
   },
   plugins: ["promise"],
   rules: {
+    "func-names": "off",
     "promise/always-return": "error",
     "promise/no-return-wrap": "error",
     "promise/param-names": "error",

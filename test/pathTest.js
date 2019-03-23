@@ -1,8 +1,5 @@
 const test = {
-  name:"test"
+  name: 'test',
 };
 
 export default test;
-
-
-
