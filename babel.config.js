@@ -14,15 +14,15 @@ const presets = [
   ]
 ];
 const plugins = [
-    [
-      "module-resolver",
-      {
-        root: ["./"],
-        alias: {
-          "S": "./src",
-          "T": "./test"
-        }
+  [
+    "module-resolver",
+    {
+      root: ["./"],
+      alias: {
+        "S": "./src",
+        "T": "./test"
       }
-    ]
-  ];
-module.exports = { presets,plugins };
+    }
+  ]
+];
+module.exports = { presets, plugins };
