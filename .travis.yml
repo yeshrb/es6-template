@@ -10,6 +10,7 @@ env:
   - CODECOV_TOKEN: "8470fe62-ae4c-4c88-96aa-0efb0bf30c86"
 
 install:
+- yarn install
 - npm install -g codecov
 - npm install -g istanbul
 #运行的脚本命令
