@@ -1,7 +1,7 @@
-import chai from "chai";
-import test from "T/pathTest";
-import srcPath from "S/a-template";
-import path from "path";
+import chai from 'chai';
+import test from 'T/pathTest';
+import srcPath from 'S/a-template';
+import path from 'path';
 import axios from 'axios';
 
 const { expect } = chai;
@@ -14,16 +14,16 @@ describe('mocha+chai framework', () => {
   });
   it("should resolve the path alias 'S' for './test", async () => {
     const data = srcPath();
-    expect(data).to.equal(path.resolve("src", "../src"));
+    expect(data).to.equal(path.resolve('src', '../src'));
   });
-
-  it("should return", async () => {
-    try {
-      let response = await axios.get("/");
-      expect(response.data.message).to.equal("Hello World");
-    } catch(err){
-      expect(err.message).to.equal("Hello World");
-    }
-
+  describe('mock', () => {
+    it('should can intercept axios request', async () => {
+      try {
+        const response = await axios.get('/');
+        expect(response.data.message).to.equal('Hello World');
+      } catch (err) {
+        expect(err.message).to.equal('Hello World');
+      }
+    });
   });
 });

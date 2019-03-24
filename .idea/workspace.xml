@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f767766-f678-4e8a-9e42-a1b37c901c76" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/mocktest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mocharc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.mocharc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/mocha-chai-frawork-run.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/mocha-chai-frawork-run.spec.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,7 +26,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="js" value="22" />
+          <entry key="js" value="23" />
           <entry key="json" value="2" />
           <entry key="lock" value="2" />
           <entry key="log" value="1" />
@@ -42,7 +37,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="22" />
+          <entry key="JavaScript" value="23" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="2" />
@@ -51,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2544" />
+          <entry key="js" value="2634" />
           <entry key="json" value="16" />
           <entry key="md" value="6" />
           <entry key="txt" value="65" />
@@ -61,7 +56,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="16" />
-          <entry key="JavaScript" value="2544" />
+          <entry key="JavaScript" value="2634" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="65" />
           <entry key="YAML" value="91" />
@@ -88,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.mocharc.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -102,15 +97,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mocktest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -136,14 +122,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/mocha-chai-frawork-run.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="195">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -180,8 +175,8 @@
         <option value="$PROJECT_DIR$/test/mock.js" />
         <option value="$PROJECT_DIR$/mocktest.js" />
         <option value="$PROJECT_DIR$/mock.js" />
-        <option value="$PROJECT_DIR$/test/mocha-chai-frawork-run.spec.js" />
         <option value="$PROJECT_DIR$/.mocharc.js" />
+        <option value="$PROJECT_DIR$/test/mocha-chai-frawork-run.spec.js" />
       </list>
     </option>
   </component>
@@ -284,7 +279,7 @@
       <updated>1553304755250</updated>
       <workItem from="1553304756771" duration="420000" />
       <workItem from="1553305464554" duration="10214000" />
-      <workItem from="1553320981159" duration="15354000" />
+      <workItem from="1553320981159" duration="15807000" />
     </task>
     <task id="LOCAL-00001" summary="eslint rule for promise">
       <created>1553346277009</created>
@@ -304,7 +299,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25988000" />
+    <option name="totallyTimeSpent" value="26441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="694" extended-state="0" />
@@ -452,13 +447,6 @@
         <state relative-caret-position="-106" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/start.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -486,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/mock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -510,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/mocha-chai-frawork-run.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/mock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -534,6 +505,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mocha-chai-frawork-run.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
